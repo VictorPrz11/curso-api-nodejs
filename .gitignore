@@ -1,0 +1,52 @@
+# .gitignore para proyecto Node.js (Express + nodemon)
+
+# Dependencias
+node_modules
+
+# Variables de entorno
+.env
+.env.*.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Archivos generados / builds
+dist/
+build/
+coverage/
+.nyc_output/
+.cache/
+.next/
+
+# Archivos temporales / pids
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Bases de datos locales
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# IDEs / sistemas operativos
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# Paquetes y artefactos
+*.tgz
+.sass-cache/
+.parcel-cache/
+
+# Subidas temporales
+uploads/
+public/uploads/
